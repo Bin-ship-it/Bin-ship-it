@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f2f2f2;
+            color: #fff;
+	         background-image: url(NotteStellata.jpeg);
+				background-repeat: no-repeat-x;
+    			background-size: cover;
+        }
+        header {
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+header a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+        section {
+            max-width: 800px;
+            margin: auto;
+            padding: 2em;
+            background-color: #0007;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+				
+        }
+        h2 {
+            color: #4a90e2;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+        }
+        .image {
+            text-align: center;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
